@@ -81,7 +81,7 @@
                                 <a href="#screenshots">App Screenshots</a>
                             </li>
                             <li>
-                                <a href="#explore">Explore App</a>
+                                <a href="#explore">Explore Apps</a>
                             </li>
                             <!-- <li class="scrollToLink">
                                 <a href="#news">News</a>
@@ -120,7 +120,7 @@
                             <p class="banner-one__text">At DocSaab, we’ve combined cutting-edge technology with healthcare solutions to create a comprehensive ecosystem for all your medical needs. Whether it's booking a doctor, scheduling lab tests, finding a nurse, or ordering medications, our apps offer a complete healthcare experience, right at your fingertips.</p>
 
                             <!-- /.banner-one__text -->
-                            <a href="#" class="banner-one__btn thm-btn "><span>Get Started</span></a><!-- /.thm-btn -->
+                            <!-- <a href="#" class="banner-one__btn thm-btn "><span>Get Started</span></a>/.thm-btn -->
                         </div><!-- /.banner-one__content -->
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
@@ -194,10 +194,10 @@
                 </div>
             </div>
         </section> -->
-        <section class="cta-one">
+        <section id="howItWorks" class="cta-one">
             <img src="assets/images/background/cta-one-bg.png" class="cta-one__bg" alt="Awesome Image" />
             <div class="container">
-                <img src="assets/images/home/10 – 38.png" class="cta-one__moc" width="400" height="700" alt="Awesome Image" />
+                <img src="assets/images/home/10 – 38.png" class="cta-one__moc" width="400" height="500" alt="Awesome Image" />
                 <div class="row justify-content-lg-end">
                     <div class="col-lg-6">
                         <div class="cta-one__content">
@@ -206,9 +206,9 @@
                                 <!-- <h2 class="block-title__title">Powerful <span>Tools</span> for Your Customers.</h2>/.block-title__title -->
                                  <h2 class="block-title__title">How It <span style="color: var(--primary-color);">Works</span></h2>
                             </div><!-- /.block-title -->
-                            <div class="cta-one__text">
+                            <!-- <div class="cta-one__text">
                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                            </div>
+                            </div> -->
                             <ul class="list-unstyled">
                                 <li>
                                         <div><strong><i class="fa fa-check m-0"></i>Download the App</strong></div>
@@ -230,7 +230,7 @@
                             </li>
                                 <!-- <li><i class="fa fa-check"></i>Velit esse cillum dolore eu fugiat nulla pariatur.</li> -->
                             </ul><!-- /.list-unstyled -->
-                            <a href="#" class="thm-btn"><span>Get Started</span></a>
+                            <!-- <a href="#" class="thm-btn"><span>Get Started</span></a> -->
                         </div><!-- /.cta-one__content -->
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
@@ -274,7 +274,7 @@
                                 <!-- <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum is simply dummy text of the printing laborum perspiciatis unde.</p>
                                 <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit lorem ipsum anim id est.</p> -->
                             </div><!-- /.cta-two__text -->
-                            <a href="#" class="thm-btn"><span>Get Started</span></a>
+                            <!-- <a href="#" class="thm-btn"><span>Get Started</span></a> -->
                         </div><!-- /.cta-two__content -->
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
@@ -418,7 +418,7 @@
         </section> -->
 
         <section class="app-shot-one" id="screenshots">
-            <img src="assets/images/background/app-shot-bg.png" alt="Awesome Image" class="app-shot-one__bg" />
+            <img style="z-index: -10;" src="assets/images/background/app-shot-bg.png" alt="Awesome Image" class="app-shot-one__bg " />
             <div class="container-fluid">
                 <div class="block-title text-center">
                     <h2 class="block-title__title">Checkout Our App <br> <span>Interface</span> Screenshots.</h2><!-- /.block-title__title -->
@@ -488,7 +488,7 @@
         </section><!-- /.app-shot-one -->
 
 
-        <section class="faq-one">
+        <section id="explore" class="faq-one">
             <img src="assets/images/background/faq-one-bg.png" alt="Awesome Image" class="faq-one__bg" />
             <div class="container">
                 <div class="block-title text-center">
@@ -688,7 +688,7 @@
                                 <!-- <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum is simply dummy text of the printing laborum perspiciatis unde.</p>
                                 <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit lorem ipsum anim id est.</p> -->
                             </div><!-- /.cta-two__text -->
-                            <a href="#" class="thm-btn"><span>Get Started</span></a>
+                            <!-- <a href="#" class="thm-btn"><span>Get Started</span></a> -->
                         </div><!-- /.cta-two__content -->
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
@@ -796,33 +796,46 @@
                         </div><!-- /.col-lg-2 -->
                         <div class="col-lg-6 d-flex justify-content-between footer-widget__links-wrap">
                             <div class="footer-widget">
-                                <h3 class="footer-widget__title">Explore</h3><!-- /.footer-widget__title -->
+                                <h3 class="footer-widget__title">Explore Sections</h3><!-- /.footer-widget__title -->
                                 <ul class="footer-widget__links list-unstyled">
-                                    <li><a href="#">About</a></li>
+                                    <!-- <li><a href="#">Home</a></li> -->
                                     <li><a href="#">Our Team</a></li>
-                                    <li><a href="#">Features</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">How It Works</a></li>
+                                    <li><a href="#features">Features</a></li>
+                                    <li><a href="#screenshots">App Screenshots</a></li>
+                                    <li><a href="#howItWorks">How It Works</a></li>
                                 </ul><!-- /.footer-widget__links -->
                             </div><!-- /.footer-widget -->
                             <div class="footer-widget">
-                                <h3 class="footer-widget__title">Services</h3><!-- /.footer-widget__title -->
+                                <h3 class="footer-widget__title">Our Apps</h3><!-- /.footer-widget__title -->
                                 <ul class="footer-widget__links list-unstyled">
-                                    <li><a href="#">Speed Optimization </a></li>
-                                    <li><a href="#">Marketing Analysis </a></li>
-                                    <li><a href="#">SEO and Backlinks </a></li>
-                                    <li><a href="#">Content Marketing</a></li>
+
+                                    <li>Doctor Appointment App</li>
+<li>Labs Booking App</li>
+<li>Labs Booking App</li>
+<li>Nursing Services App</li>
+<li>Patient Consultancy App</li>
+<li>Pharmacy App</li>
+                                    <!-- <li><a href="#">Doctor Appointment App </a></li>
+                                    <li><a href="#">Labs Booking App </a></li>
+                                    <li><a href="#">Labs Booking App </a></li>
+                                    <li><a href="#">Nursing Services App</a></li>
+                                    <li><a href="#">Patient Consultancy App</a></li>
+                                    <li><a href="#">Pharmacy App</a></li> -->
+
+                                    
+
+
                                 </ul><!-- /.footer-widget__links -->
                             </div><!-- /.footer-widget -->
-                            <div class="footer-widget">
-                                <h3 class="footer-widget__title">Links</h3><!-- /.footer-widget__title -->
+                            <!-- <div class="footer-widget">
+                                <h3 class="footer-widget__title">Links</h3>
                                 <ul class="footer-widget__links list-unstyled">
                                     <li><a href="#">Help </a></li>
                                     <li><a href="#">Support </a></li>
                                     <li><a href="#">Clients </a></li>
                                     <li><a href="#">Contact</a></li>
-                                </ul><!-- /.footer-widget__links -->
-                            </div><!-- /.footer-widget -->
+                                </ul>
+                            </div> -->
                         </div><!-- /.col-lg-6 -->
                         <div class="col-lg-3">
                             <div class="footer-widget">
