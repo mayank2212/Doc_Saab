@@ -70,6 +70,22 @@ a:visited {
   background-color: #fefbf4;
 }
 
+.privacy-policy-container{
+  padding: 50px 120px;
+}
+
+@media (max-width:768px) {
+  .privacy-policy-container{
+    padding: 50px;
+  }
+}
+
+@media (max-width:520px) {
+  .privacy-policy-container{
+    padding: 20px;
+  }
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
@@ -1038,8 +1054,9 @@ a:visited {
 }
 
 .blog-details {
-  padding: 120px 0;
+  padding: 50px 120px;
 }
+
 .blog-details .blog-one__single {
   margin-bottom: 0;
 }
@@ -1643,6 +1660,7 @@ a:visited {
   position: relative;
   background-color: #fff;
   background-image: url(../images/background/inner-banner-bg-1-1.jpg);
+  /* background-image: url(../images/background/inner-banner-bg-1-1.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
