@@ -263,11 +263,10 @@
 
       // Fetch privacy policy data
       fetch(
-        "http://15.206.68.199:5585/common/application/details/privacy-policy"
+        "https://15.206.68.199:5585/common/application/details/privacy-policy"
       )
         .then((response) => response.json())
         .then((data) => {
-          // Assuming 'data' contains the privacy policy text
           privacyPolicyContainer.innerHTML = data?.data?.data;
         })
         .catch((error) => {
